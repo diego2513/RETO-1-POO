@@ -2,7 +2,7 @@ numero1=int(input("Ingrese el numero 1: "))
 numero2=int(input("Ingrese el numero 2: "))
 
 opcion=int
-while opcion != 0:
+while opcion != "!":
     print("\n+------------------------------------+")
     print("+               MENU                 +")
     print("+ 1. SUMAR LOS DOS NUMEROS  (+)      +")
