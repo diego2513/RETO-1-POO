@@ -2,7 +2,12 @@ primos = input("Ingresa una lista de números separados por espacios: ")
 
 lista = primos.split() 
 
-listap = [int(x) for x in lista] 
+listap = [int(x) for x in lista]
+
+while len(listap) < 2:
+    primos = input("Vuelve a ingresar una lista de numeros no puede contener menos de 2 numeros: ")
+    lista = primos.split()
+    listap = [int(x) for x in lista]
 
 print(f"\nTu lista de numeros es: {listap}")
 
