@@ -20,3 +20,4 @@ El usuario ingresa numero separados por espcios que convierto en lista y luego e
 
 Codigo 5:
 
+mientras iba en el transmilenio se me ocurrio que ordenando las palabras en orden alfabetico era mas facil que con el codigo ascii que era la forma que habia pensado antes, entonces con ayuda de sorted() las organizo en orden alfabetico, entonces tome la lista que el usuario ingresa y comparaba cada palabra con las demás si encontraba que sus letras quedaban iguales las ponia juntas y para que no se repitiera las palabras en el "for j" esta en rango desde "i+1" con eso no volvia a tomar palabras anteriores, luego se guardaban en grupos y se imprimen los grupos
