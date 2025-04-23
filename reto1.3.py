@@ -3,9 +3,10 @@ primos = input("Ingresa una lista de números separados por espacios: ")
 lista = primos.split() 
 listap = [int(x) for x in lista] 
 
-print(listap)
+print(f"\ntu lista de numeros es: {listap}")
+
 cont=int
-print("Los numeros primos de tu lista de numeros son")
+print("\nLos numeros primos de tu lista de numeros son")
 for i in range (len(listap)):
     cont=0
     for j in range (1,listap[i]+1):
